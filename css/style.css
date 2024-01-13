@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+#logo-div {
+    background-color: lightgray;
+    min-height: 5vh;
+    line-height: 5vh;
+    padding-left: 2%;
+    margin-bottom: 1vh;
+}
+#navigation-div {
+    background-color: lightgray;
+    min-height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+#header-div {
+    background-color: lightgray;
+    min-height: 15vh;
+    line-height: 15vh;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+#main-div {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.clear-main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#sidebar-div {
+    background-color: lightgray;
+    width: 15vw;
+    min-height: 50vh;
+    line-height: 50vh;
+    float: left;
+}
+#bodyarea-div {
+    background-color: lightgray;
+    width: 63vw;
+    min-height: 50vh;
+    line-height: 50vh;
+
+    float: right;
+}
+
+#footer-div {
+    background-color: lightgray;
+    min-height: 15vh;
+    line-height: 15vh;
+    text-align: center;
+    margin-bottom: 1vh;
+}
